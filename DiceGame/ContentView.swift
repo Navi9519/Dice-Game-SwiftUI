@@ -7,17 +7,21 @@
 
 import SwiftUI
 
+
+
+
+
 struct ContentView: View {
+    
+    @ObservedObject var myGameViewModel = DiceGameViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+       GameView(myGameViewModel: myGameViewModel)
     }
+    
 }
+
 
 #Preview {
     ContentView()

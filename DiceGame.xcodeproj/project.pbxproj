@@ -11,6 +11,10 @@
 		9653663F2CA29CAA0039C5C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653663E2CA29CAA0039C5C0 /* ContentView.swift */; };
 		965366412CA29CAB0039C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965366402CA29CAB0039C5C0 /* Assets.xcassets */; };
 		965366442CA29CAB0039C5C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965366432CA29CAB0039C5C0 /* Preview Assets.xcassets */; };
+		9653664C2CA2BAB70039C5C0 /* DiceGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653664B2CA2BAB70039C5C0 /* DiceGameModel.swift */; };
+		9653664F2CA2BAE50039C5C0 /* DiceGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653664E2CA2BAE50039C5C0 /* DiceGameViewModel.swift */; };
+		965366522CA2BB1F0039C5C0 /* WinnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965366512CA2BB1F0039C5C0 /* WinnersView.swift */; };
+		965366542CA2BB2E0039C5C0 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965366532CA2BB2E0039C5C0 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9653663E2CA29CAA0039C5C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		965366402CA29CAB0039C5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965366432CA29CAB0039C5C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9653664B2CA2BAB70039C5C0 /* DiceGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameModel.swift; sourceTree = "<group>"; };
+		9653664E2CA2BAE50039C5C0 /* DiceGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameViewModel.swift; sourceTree = "<group>"; };
+		965366512CA2BB1F0039C5C0 /* WinnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersView.swift; sourceTree = "<group>"; };
+		965366532CA2BB2E0039C5C0 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		9653663B2CA29CAA0039C5C0 /* DiceGame */ = {
 			isa = PBXGroup;
 			children = (
+				9653664A2CA2BA840039C5C0 /* Model */,
+				9653664D2CA2BACF0039C5C0 /* ViewModel */,
+				965366502CA2BB050039C5C0 /* View */,
 				9653663C2CA29CAA0039C5C0 /* DiceGameApp.swift */,
 				9653663E2CA29CAA0039C5C0 /* ContentView.swift */,
 				965366402CA29CAB0039C5C0 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				965366432CA29CAB0039C5C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9653664A2CA2BA840039C5C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9653664B2CA2BAB70039C5C0 /* DiceGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9653664D2CA2BACF0039C5C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9653664E2CA2BAE50039C5C0 /* DiceGameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		965366502CA2BB050039C5C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				965366512CA2BB1F0039C5C0 /* WinnersView.swift */,
+				965366532CA2BB2E0039C5C0 /* GameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9653663F2CA29CAA0039C5C0 /* ContentView.swift in Sources */,
+				9653664F2CA2BAE50039C5C0 /* DiceGameViewModel.swift in Sources */,
+				9653664C2CA2BAB70039C5C0 /* DiceGameModel.swift in Sources */,
+				965366522CA2BB1F0039C5C0 /* WinnersView.swift in Sources */,
+				965366542CA2BB2E0039C5C0 /* GameView.swift in Sources */,
 				9653663D2CA29CAA0039C5C0 /* DiceGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
